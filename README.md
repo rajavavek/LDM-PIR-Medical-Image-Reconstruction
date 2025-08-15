@@ -1,6 +1,9 @@
-# Lightweight Physics Conditioned Diffusion Multi-Model for Medical Image Reconstruction
+ # Lightweight Physics Conditioned Diffusion Multi-Model for Medical Image Reconstruction
 
-[![GitHub](https://img.shields.io/badge/GitHub-Code-blue?logo=github)](https://github.com/rajavavek/DAugSindhi) [![Paper](https://img.shields.io/badge/Paper-DOI:10.53388/BMEC2026012-red?logo=read-the-docs)](https://doi.org/10.53388/BMEC2026012) [![Web](https://img.shields.io/badge/Web-LDM-PIR-grey)](https://colab.research.google.com/drive/1EMqx8C7PeRID5q0EKlBAnHPbmRf1Jsjx?usp=sharing) 
+[![GitHub](https://img.shields.io/badge/GitHub-Code-blue?logo=github)](https://github.com/rajavavek/LDM-PIR-Medical-Image-Reconstruction)  [![Paper](https://img.shields.io/badge/Paper-DOI:10.53388/BMEC2026012-red?logo=read-the-docs)](https://doi.org/10.53388/BMEC2026012)  [![Demo](https://img.shields.io/badge/Demo-LDM--PIR-grey)](https://colab.research.google.com/drive/1EMqx8C7PeRID5q0EKlBAnHPbmRf1Jsjx?usp=sharing)
+
+
+
 
 
 <p align="center" style="color:blue; font-size:24px;">
