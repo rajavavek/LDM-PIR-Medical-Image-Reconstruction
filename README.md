@@ -23,6 +23,20 @@ The model is trained on diverse datasets like fastMRI and LIDC-IDRI, applying va
 <img width="806" height="433" alt="image" src="https://github.com/user-attachments/assets/e41168b8-397e-4b9b-b378-712f1428fc3d" />
 
 The model achieves state-of-the-art performance across MRI and CT tasks, outperforming traditional iterative methods and task-specific deep learning models in terms of PSNR (Peak Signal-to-Noise Ratio) and SSIM (Structural Similarity Index). It handles extreme undersampling and low SNR conditions, making it robust for clinical settings where data acquisition is constrained by time or radiation dose.
+### Results Comparison
+
+| Method           | MRI (Single-Coil) PSNR | MRI (Single-Coil) SSIM | MRI (Multi-Coil) PSNR | MRI (Multi-Coil) SSIM | CT (Gaussian Noise) PSNR | CT (Gaussian Noise) SSIM | CT (Poisson Noise) PSNR | CT (Poisson Noise) SSIM |
+|------------------|------------------------|------------------------|-----------------------|-----------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| **LDM-PIR**      | 34.04                  | 0.853                  | 31.50                 | 0.813                 | 28.83                    | 0.798                    | 28.83                   | 0.798                    |
+| **PDNet**        | 28.25                  | 0.719                  | 23.09                 | 0.713                 | 23.09                    | 0.713                    | 13.20                   | 0.357                    |
+| **uDPIR**        | 30.54                  | 0.784                  | 28.35                 | 0.779                 | 28.35                    | 0.779                    | 28.35                   | 0.779                    |
+| **MoDL**         | 32.80                  | 0.810                  | 27.50                 | 0.760                 | 27.50                    | 0.770                    | 26.50                   | 0.730                    |
+
+**Notes**:
+- PSNR (Peak Signal-to-Noise Ratio) is measured in dB (decibels).
+- SSIM (Structural Similarity Index) is a measure of image quality based on luminance, contrast, and structure.
+- **LDM-PIR** outperforms other methods across all tasks, demonstrating superior image quality and computational efficiency.
+This table compares the performance metrics (PSNR and SSIM) of the LDM-PIR model with other methods for different medical imaging tasks.
 
 <img width="906" height="273" alt="image" src="https://github.com/user-attachments/assets/244f5d2e-492b-4875-a887-93a14ca767eb" />
 
